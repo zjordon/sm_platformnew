@@ -1,0 +1,8 @@
+DEBUG [main] (SmOperation.java:641) -2013-01-06 18:02:33,891 login userName:null password:Abcd@123
+DEBUG [main] (SmOperation.java:651) -2013-01-06 18:02:33,957 sql: select * from tbl_operator where Operator_Code='' and Password='JoFaPBx5mJd3co5H7Fg8YtyKYHA='
+DEBUG [main] (SmOperation.java:641) -2013-01-06 18:05:38,255 login userName:admin password:Abcd@123
+DEBUG [main] (SmOperation.java:651) -2013-01-06 18:05:38,278 sql: select * from tbl_operator where Operator_Code='admin' and Password='JoFaPBx5mJd3co5H7Fg8YtyKYHA='
+DEBUG [main] (SmOperation.java:641) -2013-01-06 18:06:57,370 login userName:admin password:Abcd@123
+DEBUG [main] (SmOperation.java:651) -2013-01-06 18:06:57,390 sql: select * from tbl_operator where Operator_Code='admin' and Password='JoFaPBx5mJd3co5H7Fg8YtyKYHA='
+DEBUG [main] (SmOperation.java:641) -2013-01-06 18:07:54,825 login userName:admin password:Abcd@123
+DEBUG [main] (SmOperation.java:651) -2013-01-06 18:07:54,843 sql: select * from tbl_operator where Operator_Code='admin' and Password='JoFaPBx5mJd3co5H7Fg8YtyKYHA='

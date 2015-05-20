@@ -1,0 +1,4 @@
+DEBUG [main] (SmOperation.java:641) -2012-11-28 19:07:21,114 login userName:admin password:0
+DEBUG [main] (SmOperation.java:651) -2012-11-28 19:07:21,119 sql: select * from tbl_operator where Operator_Code='admin' and Password='0CcWNcw4K0C6qXKq61XOYRic1wU='
+DEBUG [main] (SmOperation.java:641) -2012-11-28 19:11:12,692 login userName:admin password:0
+DEBUG [main] (SmOperation.java:651) -2012-11-28 19:11:12,699 sql: select * from tbl_operator where Operator_Code='admin' and Password='0CcWNcw4K0C6qXKq61XOYRic1wU='

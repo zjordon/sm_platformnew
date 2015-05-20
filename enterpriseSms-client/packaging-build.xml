@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Packaging Generator" default="catalina">
+	<target name="catalina" description="catalina.jar">
+		<jar destfile="target/catalina.jar">
+			<zipfileset dir="target/classes" excludes="log4j.properties,commons-logging.properties,
+				com/ptnetwork/enterpriseSms/client/startup/Bootstrap.class,
+				com/ptnetwork/enterpriseSms/client/startup/CatalinaProperties.class,
+				com/ptnetwork/enterpriseSms/client/startup/ClassLoaderFactory.class,**/*Test.class,**/Mock*.class"/>
+		</jar>
+		<!--
+		<copy file="dist/catalina.jar" 
+			todir="${smgpAppService.home}/server/lib" />
+		-->
+	</target>
+	
+	<target name="bootstrap" description="bootstrap.jar">
+		<jar destfile="target/bootstrap.jar">
+			<zipfileset dir="target/classes" includes="log4j.properties,commons-logging.properties,
+				com/ptnetwork/enterpriseSms/client/startup/Bootstrap.class,
+				com/ptnetwork/enterpriseSms/client/startup/CatalinaProperties.class,
+				com/ptnetwork/enterpriseSms/client/startup/ClassLoaderFactory.class"/>
+			<manifest>
+				<attribute name="Main-Class" value="com.ptnetwork.enterpriseSms.client.startup.Bootstrap"/>
+				<attribute name="Class-Path" value="commons-logging.jar log4j.jar"/>
+			</manifest>
+		</jar>
+		<!--
+		<copy file="dist/bootstrap.jar" 
+					todir="${smgpAppService.home}/bin" />
+		-->
+	</target>
+</project>

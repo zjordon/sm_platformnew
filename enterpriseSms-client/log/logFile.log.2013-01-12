@@ -1,0 +1,271 @@
+DEBUG [main] (SmOperation.java:641) -2013-01-12 11:12:45,321 login userName:admin password:Abcd@123
+DEBUG [main] (SmOperation.java:651) -2013-01-12 11:12:45,367 sql: select * from tbl_operator where Operator_Code='admin' and Password='JoFaPBx5mJd3co5H7Fg8YtyKYHA='
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:12:46,040 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:12:46,041 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:12:51,091 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:12:51,091 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:12:56,134 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:12:56,134 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:13:01,167 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:13:01,167 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:13:06,184 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:13:06,184 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:13:11,218 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:13:11,218 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:13:16,247 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:13:16,247 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:13:21,279 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:13:21,280 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:13:26,325 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:13:26,325 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:13:31,369 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:13:31,369 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:13:36,399 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:13:36,399 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [main] (SmOperation.java:641) -2013-01-12 11:34:18,386 login userName:admin password:Abcd@123
+DEBUG [main] (SmOperation.java:651) -2013-01-12 11:34:18,402 sql: select * from tbl_operator where Operator_Code='admin' and Password='JoFaPBx5mJd3co5H7Fg8YtyKYHA='
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:34:19,074 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:34:19,074 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:34:24,121 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:34:24,122 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:34:29,167 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:34:29,167 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:34:34,200 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:34:34,200 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [main] (SmOperation.java:641) -2013-01-12 11:34:52,399 login userName:admin password:Abcd@123
+DEBUG [main] (SmOperation.java:651) -2013-01-12 11:34:52,408 sql: select * from tbl_operator where Operator_Code='admin' and Password='JoFaPBx5mJd3co5H7Fg8YtyKYHA='
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:34:53,003 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:34:53,004 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:34:58,042 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:34:58,043 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:35:03,075 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:35:03,075 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:35:08,105 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:35:08,105 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:35:13,152 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:35:13,153 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:35:18,184 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:35:18,184 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:35:23,216 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:35:23,217 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:35:28,259 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:35:28,259 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:35:33,275 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:35:33,276 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:35:38,308 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:35:38,308 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:35:43,325 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:35:43,325 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:35:48,347 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:35:48,347 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:35:53,376 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:35:53,376 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:35:58,407 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:35:58,407 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [main] (SmOperation.java:641) -2013-01-12 11:37:59,616 login userName:admin password:Abcd@123
+DEBUG [main] (SmOperation.java:651) -2013-01-12 11:37:59,626 sql: select * from tbl_operator where Operator_Code='admin' and Password='JoFaPBx5mJd3co5H7Fg8YtyKYHA='
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:38:00,316 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:38:00,316 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:38:05,347 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:38:05,348 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:38:10,393 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:38:10,393 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:38:15,446 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:38:15,446 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:38:20,478 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:38:20,478 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:38:25,519 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:38:25,519 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:38:30,559 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:38:30,559 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:38:35,593 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:38:35,593 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:38:40,628 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:38:40,629 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:38:45,659 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:38:45,660 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:38:50,698 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:38:50,698 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:38:55,731 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:38:55,731 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:39:00,774 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:39:00,774 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:39:05,806 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:39:05,806 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:39:10,851 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:39:10,851 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:39:15,884 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:39:15,885 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:39:20,929 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:39:20,929 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:39:25,962 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:39:25,963 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:39:31,000 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:39:31,001 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [main] (SmOperation.java:641) -2013-01-12 11:39:45,246 login userName:admin password:Abcd@123
+DEBUG [main] (SmOperation.java:651) -2013-01-12 11:39:45,246 sql: select * from tbl_operator where Operator_Code='admin' and Password='JoFaPBx5mJd3co5H7Fg8YtyKYHA='
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:39:45,856 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:39:45,856 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:39:50,918 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:39:50,918 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:39:55,951 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:39:55,951 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:40:00,991 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:40:00,991 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:40:06,024 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:40:06,024 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:40:11,060 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:40:11,060 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:40:16,093 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:40:16,093 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:40:21,129 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:40:21,129 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:40:26,174 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:40:26,174 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:40:26,222 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:40:26,222 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:40:31,264 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:40:31,264 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:40:36,296 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:40:36,296 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:40:41,342 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:40:41,342 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:40:46,379 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:40:46,379 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:40:51,425 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:40:51,425 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:40:56,456 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:40:56,457 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:41:01,489 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:41:01,489 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:41:06,521 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:41:06,521 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:41:11,566 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:41:11,566 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:41:16,595 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:41:16,595 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:41:21,640 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:41:21,640 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:41:26,672 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:41:26,672 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:41:31,704 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:41:31,704 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:41:36,738 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:41:36,739 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:41:41,777 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:41:41,778 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:41:46,807 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:41:46,807 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:41:51,841 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:41:51,841 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:41:56,871 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:41:56,871 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:42:01,901 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:42:01,902 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:42:06,936 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:42:06,936 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:42:11,974 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:42:11,974 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:42:17,008 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:42:17,009 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:42:22,037 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:42:22,037 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:42:27,070 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:42:27,070 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:42:32,106 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:42:32,107 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:42:37,149 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:42:37,149 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:42:42,181 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:42:42,181 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:42:47,211 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:42:47,211 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:42:52,244 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:42:52,244 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:42:57,281 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:42:57,281 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:43:02,321 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:43:02,321 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:43:07,366 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:43:07,366 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:43:12,403 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:43:12,403 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:43:17,419 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:43:17,419 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:43:22,452 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:43:22,452 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:43:27,486 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:43:27,486 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:43:32,529 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:43:32,529 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:43:37,569 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:43:37,569 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:43:42,606 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:43:42,606 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:43:47,649 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:43:47,649 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:43:52,682 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:43:52,682 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:43:57,721 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:43:57,721 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:44:02,754 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:44:02,755 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:44:07,796 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:44:07,796 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:44:12,827 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:44:12,827 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:44:17,863 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:44:17,863 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:44:22,898 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:44:22,899 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:44:27,931 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:44:27,931 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:44:32,947 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:44:32,947 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:44:37,980 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:44:37,981 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:44:43,024 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:44:43,024 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:44:48,068 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:44:48,068 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:44:53,099 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:44:53,099 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:44:58,130 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:44:58,131 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:45:03,162 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:45:03,162 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:45:08,193 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:45:08,193 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:45:13,229 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:45:13,229 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [Thread-2] (SmOperation.java:67) -2013-01-12 11:45:18,261 Query condition: maxCount:10 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [Thread-2] (SmOperation.java:125) -2013-01-12 11:45:18,261 sqlsb:select  * from tbl_smreceived where (Reserve1 is null)   FETCH FIRST 10 ROWS ONLY 
+DEBUG [main] (SmOperation.java:641) -2013-01-12 15:41:02,771 login userName:admin password:Abcd@123
+DEBUG [main] (SmOperation.java:651) -2013-01-12 15:41:03,116 sql: select * from tbl_operator where Operator_Code='admin' and Password='JoFaPBx5mJd3co5H7Fg8YtyKYHA='
+DEBUG [main] (SmOperation.java:195) -2013-01-12 15:41:04,623 sendSm :sendSMID:-1,smServiceId:MFJ0110101,smNeedStateReport:0,smMsgID:,smOrgAddr:1860,smSmType:0,smMessageID:0,smDestAddrType:0,smFeeType:02,smFeeCode:0,smTryTimes:0,smDestAddrs:[Ljava.lang.String;@11dda2d,smMsgContent:testaaaafuckboss,msgFmt:15,sendMethodType:0
+DEBUG [main] (SmOperation.java:320) -2013-01-12 15:41:04,624 sql:insert into tbl_smsendtask  (SubTime,OrgAddr,DestAddr,SM_Content,SendTime,NeedStateReport,ServiceID,FeeType,FeeCode,MsgID,TryTimes,Reserve1,Reserve2,CreatorID,SMType,MessageID,DestAddrType,TaskName,SmSendedNum,OperationType,SuboperationType,SendType,TaskStatus,SENDLEVEL,sendstate) values(CURRENT TIMESTAMP,'18600000','13950079348','testaaaafuckboss',CURRENT TIMESTAMP,0,'MFJ0110101','02','0','',0,null,null,'0000',0,'0',0,'',0,'WAS','0',0,0,0,0)
+DEBUG [main] (SmOperation.java:641) -2013-01-12 15:44:12,240 login userName:admin password:Abcd@123
+DEBUG [main] (SmOperation.java:651) -2013-01-12 15:44:12,266 sql: select * from tbl_operator where Operator_Code='admin' and Password='JoFaPBx5mJd3co5H7Fg8YtyKYHA='
+DEBUG [main] (SmOperation.java:449) -2013-01-12 15:44:12,999 query condition: sm_id:255 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [main] (SmOperation.java:517) -2013-01-12 15:44:13,001 sql:select * from tbl_smresult_0109 where (1=1)  and (SendTime >= '2013-01-09 15:44:13.000')  and (SendTime <= '2013-01-12 15:44:13.000')  and (sm_id = 255) 
+DEBUG [main] (SmOperation.java:517) -2013-01-12 15:44:13,035 sql:select * from tbl_smresult_0110 where (1=1)  and (SendTime >= '2013-01-09 15:44:13.000')  and (SendTime <= '2013-01-12 15:44:13.000')  and (sm_id = 255) 
+DEBUG [main] (SmOperation.java:517) -2013-01-12 15:44:13,071 sql:select * from tbl_smresult_0111 where (1=1)  and (SendTime >= '2013-01-09 15:44:13.000')  and (SendTime <= '2013-01-12 15:44:13.000')  and (sm_id = 255) 
+DEBUG [main] (SmOperation.java:517) -2013-01-12 15:44:13,124 sql:select * from tbl_smresult_0112 where (1=1)  and (SendTime >= '2013-01-09 15:44:13.000')  and (SendTime <= '2013-01-12 15:44:13.000')  and (sm_id = 255) 
+DEBUG [main] (SmOperation.java:641) -2013-01-12 15:56:35,164 login userName:admin password:Abcd@123
+DEBUG [main] (SmOperation.java:651) -2013-01-12 15:56:35,185 sql: select * from tbl_operator where Operator_Code='admin' and Password='JoFaPBx5mJd3co5H7Fg8YtyKYHA='
+DEBUG [main] (SmOperation.java:195) -2013-01-12 15:56:35,891 sendSm :sendSMID:-1,smServiceId:MFJ0110101,smNeedStateReport:1,smMsgID:,smOrgAddr:1860,smSmType:0,smMessageID:0,smDestAddrType:0,smFeeType:02,smFeeCode:0,smTryTimes:0,smDestAddrs:[Ljava.lang.String;@11dda2d,smMsgContent:testaaaafuckbossbbbbb,msgFmt:15,sendMethodType:0
+DEBUG [main] (SmOperation.java:320) -2013-01-12 15:56:35,893 sql:insert into tbl_smsendtask  (SubTime,OrgAddr,DestAddr,SM_Content,SendTime,NeedStateReport,ServiceID,FeeType,FeeCode,MsgID,TryTimes,Reserve1,Reserve2,CreatorID,SMType,MessageID,DestAddrType,TaskName,SmSendedNum,OperationType,SuboperationType,SendType,TaskStatus,SENDLEVEL,sendstate) values(CURRENT TIMESTAMP,'18600000','13950079348','testaaaafuckbossbbbbb',CURRENT TIMESTAMP,1,'MFJ0110101','02','0','',0,null,null,'0000',0,'0',0,'',0,'WAS','0',0,0,0,0)
+DEBUG [main] (SmOperation.java:641) -2013-01-12 15:56:53,420 login userName:admin password:Abcd@123
+DEBUG [main] (SmOperation.java:651) -2013-01-12 15:56:53,441 sql: select * from tbl_operator where Operator_Code='admin' and Password='JoFaPBx5mJd3co5H7Fg8YtyKYHA='
+DEBUG [main] (SmOperation.java:449) -2013-01-12 15:56:54,148 query condition: sm_id:256 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [main] (SmOperation.java:517) -2013-01-12 15:56:54,150 sql:select * from tbl_smresult_0109 where (1=1)  and (SendTime >= '2013-01-09 15:56:54.149')  and (SendTime <= '2013-01-12 15:56:54.149')  and (sm_id = 256) 
+DEBUG [main] (SmOperation.java:517) -2013-01-12 15:56:54,180 sql:select * from tbl_smresult_0110 where (1=1)  and (SendTime >= '2013-01-09 15:56:54.149')  and (SendTime <= '2013-01-12 15:56:54.149')  and (sm_id = 256) 
+DEBUG [main] (SmOperation.java:517) -2013-01-12 15:56:54,212 sql:select * from tbl_smresult_0111 where (1=1)  and (SendTime >= '2013-01-09 15:56:54.149')  and (SendTime <= '2013-01-12 15:56:54.149')  and (sm_id = 256) 
+DEBUG [main] (SmOperation.java:517) -2013-01-12 15:56:54,243 sql:select * from tbl_smresult_0112 where (1=1)  and (SendTime >= '2013-01-09 15:56:54.149')  and (SendTime <= '2013-01-12 15:56:54.149')  and (sm_id = 256) 
+DEBUG [main] (SmOperation.java:641) -2013-01-12 16:41:58,233 login userName:admin password:Abcd@123
+DEBUG [main] (SmOperation.java:651) -2013-01-12 16:41:58,251 sql: select * from tbl_operator where Operator_Code='admin' and Password='JoFaPBx5mJd3co5H7Fg8YtyKYHA='
+DEBUG [main] (SmOperation.java:449) -2013-01-12 16:41:58,865 query condition: sm_id:256 fromTime:null endTime:null orgAddr:null destAddr:null
+DEBUG [main] (SmOperation.java:517) -2013-01-12 16:41:58,867 sql:select * from tbl_smresult_0109 where (1=1)  and (SendTime >= '2013-01-09 16:41:58.866')  and (SendTime <= '2013-01-12 16:41:58.866')  and (sm_id = 256) 
+DEBUG [main] (SmOperation.java:517) -2013-01-12 16:41:58,909 sql:select * from tbl_smresult_0110 where (1=1)  and (SendTime >= '2013-01-09 16:41:58.866')  and (SendTime <= '2013-01-12 16:41:58.866')  and (sm_id = 256) 
+DEBUG [main] (SmOperation.java:517) -2013-01-12 16:41:58,942 sql:select * from tbl_smresult_0111 where (1=1)  and (SendTime >= '2013-01-09 16:41:58.866')  and (SendTime <= '2013-01-12 16:41:58.866')  and (sm_id = 256) 
+DEBUG [main] (SmOperation.java:517) -2013-01-12 16:41:58,972 sql:select * from tbl_smresult_0112 where (1=1)  and (SendTime >= '2013-01-09 16:41:58.866')  and (SendTime <= '2013-01-12 16:41:58.866')  and (sm_id = 256) 

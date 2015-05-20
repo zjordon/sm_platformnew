@@ -37,19 +37,19 @@ public class SubmitPacket extends AbstractPacket {
 	private long msgId = 0;//信息标识，由SP侧短信网关本身产生，本处填空。
 	private byte pkTotal = 0x01;
 	private byte pkNumber = 0x01;
-	private byte needReport;
-	private byte msgLevel;
+	private byte needReport = 0x00;
+	private byte msgLevel = 0x01;
 	private String serviceId;
 	private byte feeUserType;
 	private String feeTerminalId;
-	private byte tpPid;
-	private byte tpUdhi;
+	private byte tpPid = 0x00;
+	private byte tpUdhi = 0x00;
 	private byte msgFmt = 0x0f;
 	private String msgSrc;
-	private String feeType;
-	private String feeCode;
-	private String validTime;
-	private String atTime;
+	private String feeType = "01";
+	private String feeCode = "000000";
+	private String validTime = "";
+	private String atTime = "";
 	private String srcId;
 	private byte destUsrTl;
 	private String destTerminalId;

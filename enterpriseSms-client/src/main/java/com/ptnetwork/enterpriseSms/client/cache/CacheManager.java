@@ -50,7 +50,7 @@ public class CacheManager {
 		}
 		if (channelUserList != null && !channelUserList.isEmpty()) {
 			for (ChannelUser channelUser : channelUserList) {
-				if (!this.channelUserMap.containsKey(channelUser.getId())) {
+				if (!this.channelUserMap.containsKey(channelUser.getChannelId())) {
 					this.channelUserMap.put(channelUser.getChannelId(),
 							channelUser);
 				}
@@ -83,7 +83,7 @@ public class CacheManager {
 	}
 
 	public void addChannelUser(ChannelUser channelUser) {
-		this.channelUserMap.put(channelUser.getId(), channelUser);
+		this.channelUserMap.put(channelUser.getChannelId(), channelUser);
 	}
 
 	public void updateChannelUserInfo(String id, String password) {

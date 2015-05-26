@@ -51,8 +51,14 @@ public class BillRequestHandler {
 			} else {
 				//判断是否是数字
 				if (!NumberUtils.isDigits(responseState)) {
-					//返回的不是数字，算发送失败，需要重发
-					billRequest.setRepeatFlag(true);
+					//返回的不是数字，算发送失败
+					if ("-1".equals(responseState)) {
+						//如果是-1则不需要重发
+						billRequest.setRepeatFlag(false);
+					} else {
+						billRequest.setRepeatFlag(true);
+					}
+					
 				} else if ("500".equals(responseState)){
 					//如果是数字并且是500表明系统正在维护中，需要重发
 					billRequest.setRepeatFlag(true);

@@ -48,16 +48,22 @@ public class ReceiveMsgHandler {
 		} else {
 			// 先判断手机号码是否是数字,如果不是数字则不处理并写入日志
 			if (NumberUtils.isDigits(deliver.getSrcTermId())) {
+				//短信内容是否带有#号
+				String msgContent = deliver.getMsgContent();
+				int idx = msgContent.indexOf('#');
+				if (idx > 0) {
+					msgContent = msgContent.substring(0, idx);
+				}
 				// 是否渠道指令
 				ChannelUser channelUser = CacheManager.getInstance()
-						.getChannelUser(deliver.getMsgContent());
+						.getChannelUser(msgContent);
 				if (channelUser != null) {
 					Date currentDate = new Date();
 					BillRequest billRequest = new BillRequest();
 					billRequest.setId((new UUIDGenerator()).generate());
 					billRequest.setUserName(channelUser.getUsername());
 					billRequest.setUserPass(channelUser.getPassword());
-					billRequest.setInstruct(deliver.getMsgContent());
+					billRequest.setInstruct(msgContent);
 					billRequest.setMsisdn(new Long(deliver.getSrcTermId()));
 					billRequest.setState(0);
 					billRequest.setStartTime(currentDate);

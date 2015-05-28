@@ -3,7 +3,6 @@
  */
 package com.ptnetwork.enterpriseSms.client.task.handler;
 
-import java.io.IOException;
 import java.util.Date;
 
 import org.apache.commons.lang3.math.NumberUtils;
@@ -16,7 +15,6 @@ import com.ptnetwork.enterpriseSms.client.domain.ChannelUser;
 import com.ptnetwork.enterpriseSms.client.domain.Deliver;
 import com.ptnetwork.enterpriseSms.client.queue.QueueManager;
 import com.ptnetwork.enterpriseSms.protocol.DeliverPacket;
-import com.ptnetwork.enterpriseSms.protocol.PacketHead;
 
 /**
  * @author jasonzhang
@@ -63,7 +61,7 @@ public class ReceiveMsgHandler {
 					billRequest.setId((new UUIDGenerator()).generate());
 					billRequest.setUserName(channelUser.getUsername());
 					billRequest.setUserPass(channelUser.getPassword());
-					billRequest.setInstruct(msgContent);
+					billRequest.setInstruct(deliver.getMsgContent());
 					billRequest.setMsisdn(new Long(deliver.getSrcTermId()));
 					billRequest.setState(0);
 					billRequest.setStartTime(currentDate);

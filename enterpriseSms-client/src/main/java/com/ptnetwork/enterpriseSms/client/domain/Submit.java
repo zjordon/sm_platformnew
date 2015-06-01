@@ -62,16 +62,16 @@ public class Submit extends Header {
 		this.submitPacket.setAtTime(atTime);
 	}
 	public String getChargeTermId() {
-		return this.submitPacket.getChargeTermId();
+		return null;
 	}
 	public void setChargeTermId(String chargeTermId) {
-		this.submitPacket.setChargeTermId(chargeTermId);
+		//this.submitPacket.setChargeTermId(chargeTermId);
 	}
 	public int getDestTermIdCount() {
-		return this.submitPacket.getDestTermIdCount();
+		return this.submitPacket.getDestUsrTl();
 	}
 	public void setDestTermIdCount(int destTermIdCount) {
-		this.submitPacket.setDestTermIdCount((byte)destTermIdCount);
+		this.submitPacket.setDestUsrTl((byte)destTermIdCount);
 	}
 	public String getFeeCode() {
 		return this.submitPacket.getFeeCode();
@@ -86,16 +86,18 @@ public class Submit extends Header {
 		this.submitPacket.setFeeType(feeType);
 	}
 	public String getFixedFee() {
-		return this.submitPacket.getFixedFee();
+//		return this.submitPacket.get
+		return null;
 	}
 	public void setFixedFee(String fixedFee) {
-		this.submitPacket.setFixedFee(fixedFee);
+		//this.submitPacket.setFixedFee(fixedFee);
 	}
 	public int getMsgType() {
-		return this.submitPacket.getMsgType();
+		//return this.submitPacket.getm
+		return 0;
 	}
 	public void setMsgType(int msgType) {
-		this.submitPacket.setMsgType((byte)msgType);
+		//this.submitPacket.setMsgType((byte)msgType);
 	}
 	public int getNeedReport() {
 		return this.submitPacket.getNeedReport();
@@ -104,10 +106,11 @@ public class Submit extends Header {
 		this.submitPacket.setNeedReport((byte)needReport);
 	}
 	public int getPriority() {
-		return this.submitPacket.getPriority();
+		//return this.submitPacket.getP
+		return 0;
 	}
 	public void setPriority(int priority) {
-		this.submitPacket.setPriority((byte)priority);
+		//this.submitPacket.setPriority((byte)priority);
 	}
 	public String getServiceId() {
 		return this.submitPacket.getServiceId();
@@ -131,11 +134,11 @@ public class Submit extends Header {
 	}
 	
 	public String getDestTermId() {
-		return this.submitPacket.getDestTermId();
+		return this.submitPacket.getDestTerminalId();
 	}
 
 	public void setDestTermId(String destTermId) {
-		this.submitPacket.setDestTermId(destTermId);
+		this.submitPacket.setDestTerminalId(destTermId);
 	}
 
 	public String getMsgContent() {
@@ -147,11 +150,11 @@ public class Submit extends Header {
 	}
 
 	public int getMsgFormat() {
-		return this.submitPacket.getMsgFormat();
+		return this.submitPacket.getMsgFmt();
 	}
 
 	public void setMsgFormat(int msgFormat) {
-		this.submitPacket.setMsgFormat((byte)msgFormat);
+		this.submitPacket.setMsgFmt((byte)msgFormat);
 	}
 
 	public int getMsgLength() {
@@ -171,11 +174,11 @@ public class Submit extends Header {
 	}
 
 	public String getSrcTermId() {
-		return this.submitPacket.getSrcTermId();
+		return this.submitPacket.getSrcId();
 	}
 
 	public void setSrcTermId(String srcTermId) {
-		this.submitPacket.setSrcTermId(srcTermId);
+		this.submitPacket.setSrcId(srcTermId);
 	}
 
 	public int getState() {

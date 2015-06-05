@@ -181,11 +181,14 @@ public final class Utils {
 	}
 	
 	public final static String bytes2string(byte[] data, int start, int len) throws IOException {
-		byte[] bs= new byte[len];
-		for (int i=0; i<len; i++) {
-			bs[i] = data[start++];
+		if (start > 0) {
+			byte[] bs= new byte[len];
+			for (int i=0; i<len; i++) {
+				bs[i] = data[start++];
+			}
+			return new String(bs);
 		}
-		return new String(bs);
+		return "";
 	}
 	
 	public final static String bytes2string(InputStream in, int len, String charset) throws IOException {
@@ -195,11 +198,15 @@ public final class Utils {
 	}
 	
 	public final static String bytes2string(byte[] data, int start, int len, String charset) throws IOException {
-		byte[]  bs= new byte[len];
-		for (int i=0; i<len; i++) {
-			bs[i] = data[start++];
+		if (len > 0) {
+			byte[]  bs= new byte[len];
+			for (int i=0; i<len; i++) {
+				bs[i] = data[start++];
+			}
+			return new String(bs, charset);
 		}
-		return new String(bs, charset);
+		
+		return "";
 	}
 	
 	public final static int copyBytes(byte[] src, byte[] dest, int destStart) {

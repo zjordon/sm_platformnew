@@ -27,26 +27,31 @@ public class DbBillRequestStore extends DbBaseStore {
 	private static Log log = LogFactory.getLog(DbBillRequestStore.class);
 	
 	private static String INSERT_BILL_REQUEST = "insert into sm_bill_request(id, user_name, user_pass, instruct, msisdn, repeat_flag, state, "
-			+ "start_time, end_time, response_state, create_date, deliver_id)"
-			+ "values(?,?,?,?,?,?,?,?,?,?,?,?)";
+			+ "start_time, end_time, response_state, create_date, deliver_id, post_url)"
+			+ "values(?,?,?,?,?,?,?,?,?,?,?,?,?)";
 	
 	private final static String UPDATE_BILL_REQUEST = "update sm_bill_request set start_time = ?, end_time = ?, response_state = ?, repeat_flag = ? where id = ?";
 	private static String INSERT_REPEAT_RECORD = "insert into sm_repeat_request_record(id, start_time, end_time, response_state, create_date, bill_request_id)"
 			+ "values(?,?,?,?,?,?)";
 	private final static String GET_NEED_REPEAT_REQUET = "select id, user_name, user_pass, instruct, msisdn, repeat_flag, state, "
-			+ "start_time, end_time, response_state, create_date from sm_bill_request where repeat_flag = 1 limit 0, ?";
+			+ "start_time, end_time, response_state, create_date, post_url from sm_bill_request where repeat_flag = 1 limit 0, ?";
 	public void saveBillRequestList(List<BillRequest> billRequestList) throws DaoException {
 		Connection conn = null;
 		List<RepestRequestRecord> repeatRequestList = new ArrayList<RepestRequestRecord>();
 		try {
 			conn = super.getConnection();
 			PreparedStatement pstmt = conn.prepareStatement(INSERT_BILL_REQUEST);
+			StringBuilder builder = new StringBuilder();
 			for (BillRequest billRequest : billRequestList) {
-				this.setParameterToPstmt(pstmt, billRequest);
-				pstmt.addBatch();
+				
 				//如果需要重发，则把当条记录保存到历史记录
 				if (billRequest.isRepeatFlag()) {
+					this.setParameterToPstmt(pstmt, billRequest);
+					pstmt.addBatch();
 					this.addRepeatRecordToList(repeatRequestList, billRequest);
+				} else {
+					//如果不需要重发则只记录日志
+					builder.append(billRequest.toString());
 				}
 			}
 			pstmt.executeBatch();
@@ -55,6 +60,9 @@ public class DbBillRequestStore extends DbBaseStore {
 				this.saveRepeatRecordList(conn, pstmt, repeatRequestList);
 			}
 			conn.commit();
+			if (builder.length() > 0) {
+				log.info(builder.toString());
+			}
 		} catch (SQLException e) {
 			log.error("insert deliver exception", e);
 			throw new DaoException(e.getMessage());
@@ -93,6 +101,7 @@ public class DbBillRequestStore extends DbBaseStore {
 				this.saveRepeatRecordList(conn, pstmt, repeatRequestList);
 			}
 			conn.commit();
+			
 		} catch (SQLException e) {
 			log.error("insert deliver exception", e);
 			throw new DaoException(e.getMessage());
@@ -122,6 +131,7 @@ public class DbBillRequestStore extends DbBaseStore {
 				billRequest.setEndTime(rs.getDate(9));
 				billRequest.setResponseState(rs.getString(10));
 				billRequest.setCreateDate(rs.getDate(11));
+				billRequest.setPostUrl(rs.getString(12));
 				billRequestList.add(billRequest);
 			}
 			super.closeResultSet(rs);
@@ -173,5 +183,6 @@ public class DbBillRequestStore extends DbBaseStore {
 		pstmt.setString(10, billRequest.getResponseState());
 		pstmt.setTimestamp(11, super.convertSqlDate(billRequest.getCreateDate()));
 		pstmt.setString(12, billRequest.getDeliverId());
+		pstmt.setString(13, billRequest.getPostUrl());
 	}
 }

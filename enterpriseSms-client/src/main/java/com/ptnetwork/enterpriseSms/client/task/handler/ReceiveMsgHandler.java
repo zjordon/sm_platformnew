@@ -11,6 +11,7 @@ import org.apache.log4j.Logger;
 import com.ptnetwork.enterpriseSms.client.cache.CacheManager;
 import com.ptnetwork.enterpriseSms.client.common.UUIDGenerator;
 import com.ptnetwork.enterpriseSms.client.domain.BillRequest;
+import com.ptnetwork.enterpriseSms.client.domain.ChannelInstruct;
 import com.ptnetwork.enterpriseSms.client.domain.ChannelUser;
 import com.ptnetwork.enterpriseSms.client.domain.Deliver;
 import com.ptnetwork.enterpriseSms.client.queue.QueueManager;
@@ -68,6 +69,11 @@ public class ReceiveMsgHandler {
 					billRequest.setEndTime(currentDate);
 					billRequest.setCreateDate(currentDate);
 					billRequest.setDeliverId(deliver.getId());
+					//设置posturl
+					String postUrl = CacheManager.getInstance().getPostUrl(channelUser.getChannelId());
+					if (postUrl != null) {
+						billRequest.setPostUrl(postUrl);
+					}
 					BillRequestHandler.getInstance().handle(billRequest);
 					QueueManager.getInstance().addNewBillRequest(billRequest);
 				} else {

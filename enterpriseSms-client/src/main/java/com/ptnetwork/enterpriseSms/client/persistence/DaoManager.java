@@ -26,6 +26,7 @@ public class DaoManager {
 	private DbChannelUserStore channelUserStore;
 	private DbEventStore eventStore;
 	private DbChannelInstructStore channelInstructStore;
+	private DbChannelStore channelStore;
 	
 	public void init() {
 		DataSource dataSource = DataSourceUtil.getDataSource();
@@ -40,6 +41,8 @@ public class DaoManager {
 			this.eventStore.setDataSource(dataSource);
 			this.channelInstructStore = new DbChannelInstructStore();
 			this.channelInstructStore.setDataSource(dataSource);
+			this.channelStore = new DbChannelStore();
+			this.channelStore.setDataSource(dataSource);
 		}
 	}
 
@@ -61,6 +64,10 @@ public class DaoManager {
 
 	public DbChannelInstructStore getChannelInstructStore() {
 		return channelInstructStore;
+	}
+
+	public DbChannelStore getChannelStore() {
+		return channelStore;
 	}
 	
 }

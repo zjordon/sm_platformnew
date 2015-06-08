@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.log4j.Logger;
@@ -83,7 +84,10 @@ public class BillRequestHandler {
 		paramMap.put("mobile", Long.toString(billRequest.getMsisdn()));
 		paramMap.put("content", billRequest.getInstruct());
 		HttpRequestResponse response = null;
-		String postUrl = CacheManager.getInstance().getBillRequestUrl();
+		String postUrl = billRequest.getPostUrl();
+		if (StringUtils.isBlank(postUrl)) {
+			postUrl = CacheManager.getInstance().getBillRequestUrl();
+		}
 		
 		response = HttpHelper.getInstnace().post(postUrl, paramMap);
 		

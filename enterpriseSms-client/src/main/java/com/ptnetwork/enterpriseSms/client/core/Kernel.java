@@ -232,8 +232,8 @@ public class Kernel {
 				case MsgCommand.CMPP_DELIVER:
 					DeliverPacket deliverPacket = new DeliverPacket(packetHead);
 					deliverPacket.decode(data);
-					logger.info("msisdn is :" + deliverPacket.getSrcTermId() + ",msgcontent:"
-							+ deliverPacket.getMsgContent() + ",msgId:" + deliverPacket.getMsgId() + ",sequenceId:" + deliverPacket.getSequenceId());
+//					logger.info("msisdn is :" + deliverPacket.getSrcTermId() + ",msgcontent:"
+//							+ deliverPacket.getMsgContent() + ",msgId:" + deliverPacket.getMsgId() + ",sequenceId:" + deliverPacket.getSequenceId());
 					DeliverRespPacket deliverRespPacket = new DeliverRespPacket(
 							deliverPacket.getSequenceId());
 					deliverRespPacket.setMsgId(deliverPacket.getMsgId());

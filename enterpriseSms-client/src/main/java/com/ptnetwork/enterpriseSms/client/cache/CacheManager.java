@@ -11,6 +11,7 @@ import java.util.Properties;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
+import com.ptnetwork.enterpriseSms.client.domain.Channel;
 import com.ptnetwork.enterpriseSms.client.domain.ChannelInstruct;
 import com.ptnetwork.enterpriseSms.client.domain.ChannelUser;
 import com.ptnetwork.enterpriseSms.client.persistence.DaoException;
@@ -32,6 +33,7 @@ public class CacheManager {
 
 	private Map<String, ChannelUser> channelUserMap = new HashMap<String, ChannelUser>();
 	private Map<String, ChannelInstruct> channelInstructMap = new HashMap<String, ChannelInstruct>();
+	private Map<String, String> postUrlMap = new HashMap<String, String>();
 	private String billRequestUrl;
 
 	private CacheManager() {
@@ -40,11 +42,13 @@ public class CacheManager {
 	public void init() {
 		List<ChannelUser> channelUserList = null;
 		List<ChannelInstruct> channelInstructList = null;
+		List<Channel> channelList = null;
 		try {
 			channelUserList = DaoManager.getInstance().getChannelUserStore()
 					.getChannelUserList();
 			channelInstructList = DaoManager.getInstance()
 					.getChannelInstructStore().getChannelInstructList();
+			channelList = DaoManager.getInstance().getChannelStore().getChannelList();
 		} catch (DaoException e) {
 			log.error("exception happen when init", e);
 		}
@@ -61,6 +65,11 @@ public class CacheManager {
 			for (ChannelInstruct channelInstruct : channelInstructList) {
 				this.channelInstructMap.put(channelInstruct.getInstruct(),
 						channelInstruct);
+			}
+		}
+		if (channelList != null && !channelList.isEmpty()) {
+			for (Channel channel : channelList) {
+				this.postUrlMap.put(channel.getId(), channel.getPostUrl());
 			}
 		}
 		Properties props = PropertiesHelper.getInstance().loadProps(
@@ -80,6 +89,10 @@ public class CacheManager {
 			return this.channelUserMap.get(channelInstruct.getChannelId());
 		}
 		return null;
+	}
+	
+	public ChannelInstruct getChannelInstruct(String instruct) {
+		return this.channelInstructMap.get(instruct);
 	}
 
 	public void addChannelUser(ChannelUser channelUser) {
@@ -121,6 +134,14 @@ public class CacheManager {
 			this.channelInstructMap.remove(findKey);
 			this.channelInstructMap.put(instruct, findValue);
 		}
+	}
+	
+	public void updateChannelPostUrl(String channelId, String postUrl) {
+		this.postUrlMap.put(channelId, postUrl);
+	}
+	
+	public String getPostUrl(String channelId) {
+		return this.postUrlMap.get(channelId);
 	}
 	
 	public void deleteChannelInstruct(String id) {

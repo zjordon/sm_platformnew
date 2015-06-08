@@ -25,12 +25,18 @@ public class SaveDeliverTask extends AbstractTask {
 	@Override
 	protected int executeTask() {
 		List<Deliver> deliverList = QueueManager.getInstance().getDeliverList(100);
+		//不保存到数据库存，只保存到日志
 		if (!deliverList.isEmpty()) {
-			try {
-				DaoManager.getInstance().getDeliverStore().saveDeliverList(deliverList);
-			} catch (DaoException e) {
-				logger.error("exception happen when executeTask", e);
+			StringBuilder builder = new StringBuilder();
+			for (Deliver deliver : deliverList) {
+				builder.append(deliver.toString());
 			}
+			logger.info(builder.toString());
+//			try {
+//				DaoManager.getInstance().getDeliverStore().saveDeliverList(deliverList);
+//			} catch (DaoException e) {
+//				logger.error("exception happen when executeTask", e);
+//			}
 		}
 		logger.info("SaveDeliverTask size is " + deliverList.size());
 		return deliverList.size();

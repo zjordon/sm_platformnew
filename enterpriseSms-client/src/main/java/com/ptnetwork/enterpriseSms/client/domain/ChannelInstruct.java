@@ -5,6 +5,7 @@ public class ChannelInstruct {
 	private String id;
 	private String instruct;
 	private String channelId;
+	
 	public String getId() {
 		return id;
 	}

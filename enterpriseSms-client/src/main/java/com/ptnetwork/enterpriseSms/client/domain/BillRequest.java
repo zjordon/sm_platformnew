@@ -24,6 +24,7 @@ public class BillRequest {
 	private String responseState;
 	private Date createDate;
 	private String deliverId;
+	private String postUrl;
 	public String getId() {
 		return id;
 	}
@@ -95,6 +96,22 @@ public class BillRequest {
 	}
 	public void setDeliverId(String deliverId) {
 		this.deliverId = deliverId;
+	}
+	
+	public String getPostUrl() {
+		return postUrl;
+	}
+	public void setPostUrl(String postUrl) {
+		this.postUrl = postUrl;
+	}
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("id:").append(this.id).append("userName:").append(this.userName).append("userPass:").append(this.userPass);
+		builder.append("instruct:").append(this.instruct).append("msisdn:").append(this.msisdn).append("state:").append(this.state);
+		builder.append("startTime:").append(this.startTime).append("endTime:").append(this.endTime).append("responseState:").append(this.responseState);
+		builder.append("createDate:").append(this.createDate).append("deliverId:").append(this.deliverId).append("postUrl:").append(this.postUrl).append('\n');
+		return builder.toString();
 	}
 	
 	

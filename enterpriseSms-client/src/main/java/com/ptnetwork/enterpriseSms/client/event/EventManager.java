@@ -9,6 +9,7 @@ import java.util.Map;
 import org.apache.log4j.Logger;
 
 import com.ptnetwork.enterpriseSms.client.event.channel.AddChannelEvent;
+import com.ptnetwork.enterpriseSms.client.event.channel.DeleteChannelEvent;
 import com.ptnetwork.enterpriseSms.client.event.channel.UpdatChannelPostUrlEvent;
 import com.ptnetwork.enterpriseSms.client.event.channelInstruct.AddChannelInstructEvent;
 import com.ptnetwork.enterpriseSms.client.event.channelInstruct.DeleteChannelInstructEvent;
@@ -51,6 +52,7 @@ public class EventManager {
 		eventMap.put("StopKernelEvent", new StopKernelEvent());
 		eventMap.put("UpdatChannelPostUrlEvent", new UpdatChannelPostUrlEvent());
 		eventMap.put("AddChannelEvent", new AddChannelEvent());
+		eventMap.put("DeleteChannelEvent", new DeleteChannelEvent());
 		
 	}
 	

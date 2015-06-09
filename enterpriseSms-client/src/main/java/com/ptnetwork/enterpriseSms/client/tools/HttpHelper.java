@@ -60,8 +60,8 @@ public class HttpHelper {
 			params.add(new BasicNameValuePair(entry.getKey(), entry.getValue()));
 		}
 		HttpPost httppost = new HttpPost(httpUrl);
-		//设置超时时间为5秒
-		RequestConfig requestConfig = RequestConfig.custom().setConnectionRequestTimeout(5000).setConnectTimeout(5000).setSocketTimeout(5000).build();
+		//设置超时时间为1秒
+		RequestConfig requestConfig = RequestConfig.custom().setConnectionRequestTimeout(1000).setConnectTimeout(1000).setSocketTimeout(1000).build();
 		httppost.setConfig(requestConfig);
 		httppost.setEntity(new UrlEncodedFormEntity(params, "utf-8"));
 		CloseableHttpResponse response = null;
@@ -94,8 +94,8 @@ public class HttpHelper {
 			urlBuilder.setParameter(entry.getKey(), entry.getValue());
 		}
 		HttpGet httpget = new HttpGet(urlBuilder.build());
-		//设置超时时间为5秒
-		RequestConfig requestConfig = RequestConfig.custom().setConnectionRequestTimeout(5000).setConnectTimeout(5000).setSocketTimeout(5000).build();
+		//设置超时时间为1秒
+		RequestConfig requestConfig = RequestConfig.custom().setConnectionRequestTimeout(1000).setConnectTimeout(1000).setSocketTimeout(1000).build();
 		httpget.setConfig(requestConfig);
 		CloseableHttpResponse response = null;
 		try {

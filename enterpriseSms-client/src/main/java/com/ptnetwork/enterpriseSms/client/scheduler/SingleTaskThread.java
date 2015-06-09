@@ -29,7 +29,7 @@ public class SingleTaskThread extends AbstractTaskThread {
 				logger.info("start execute task");
 				int nums = this.task.execute();
 				if (nums == 0) {
-					logger.info("execute nums is 0 sleep 10 seconds");
+					logger.info("execute nums is 0 sleep 5 seconds");
 					try {
 						Thread.sleep(5000);
 					} catch (InterruptedException e) {

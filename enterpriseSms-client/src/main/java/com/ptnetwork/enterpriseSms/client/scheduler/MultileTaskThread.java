@@ -54,9 +54,9 @@ public class MultileTaskThread extends AbstractTaskThread {
 					super.stop = true;
 				}
 				if (allExecuteNums == 0) {
-					logger.info("all execute nums is 0 sleep 20 second");
+					logger.info("all execute nums is 0 sleep 5 second");
 					try {
-						Thread.sleep(15000);
+						Thread.sleep(5000);
 					} catch (InterruptedException e) {
 						e.printStackTrace();
 					}

@@ -22,6 +22,9 @@ public abstract class AbstractEvent implements IEvent {
 			throws EventException;
 	
 	protected Map<String, String> parseNecessaryParam(String param, String... neccaryParams) throws ParseParamException {
+		if (StringUtils.isBlank(param)) {
+			throw new ParseParamException("the param is empty!");
+		}
 		Map<String, String> map = new HashMap<String, String>();
 		String[] paramKeyValues = StringUtils.split(param, ',');
 		int idx = -1;

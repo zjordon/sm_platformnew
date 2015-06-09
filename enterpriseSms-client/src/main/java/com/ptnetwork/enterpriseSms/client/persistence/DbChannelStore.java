@@ -26,6 +26,7 @@ public class DbChannelStore extends DbBaseStore {
 	private final static String INSERT_CHANNEL =  "insert into sm_channel(id, post_url) values(?, ?)";
 	private final static String GET_CHANNEL = "select id, post_url from sm_channel";
 	private final static String UPDATE_CHANNEL_POST_URL = "update sm_channel set post_url = ? where id = ?";
+	private final static String DELETE_CHANNEL = "delete from sm_channel where id = ?";
 	
 	public void saveChannel(Channel channel) throws DaoException {
 		Connection conn = null;
@@ -41,6 +42,25 @@ public class DbChannelStore extends DbBaseStore {
 		} catch (SQLException e) {
 			super.rollbackConnection(conn);
 			log.error("exception when saveChannel", e);
+			throw new DaoException(e.getMessage());
+		} finally {
+			super.closeConnction(conn);
+		}
+	}
+	
+	public void deleteChannel(String id) throws DaoException {
+		Connection conn = null;
+		try {
+			conn = super.getConnection();
+			PreparedStatement pstmt = conn
+					.prepareStatement(DELETE_CHANNEL);
+			pstmt.setString(1, id);
+			pstmt.executeUpdate();
+			super.closePstmt(pstmt);
+			conn.commit();
+		} catch (SQLException e) {
+			super.rollbackConnection(conn);
+			log.error("exception when deleteChannel", e);
 			throw new DaoException(e.getMessage());
 		} finally {
 			super.closeConnction(conn);

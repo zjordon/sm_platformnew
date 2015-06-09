@@ -140,6 +140,10 @@ public class CacheManager {
 		this.postUrlMap.put(channelId, postUrl);
 	}
 	
+	public void deleteChannelPostUrl(String channelId) {
+		this.postUrlMap.remove(channelId);
+	}
+	
 	public String getPostUrl(String channelId) {
 		return this.postUrlMap.get(channelId);
 	}

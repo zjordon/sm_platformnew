@@ -85,8 +85,12 @@ public class PacketHead {
 	}
 	
 	public void decode(byte[] data) throws IOException {
-		this.requestId = Utils.bytes2int(data, 4);
-		this.sequenceId = Utils.bytes2int(data, 8);
+		if (data.length > 8) {
+			this.requestId = Utils.bytes2int(data, 4);
+		}
+		if (data.length > 12) {
+			this.sequenceId = Utils.bytes2int(data, 8);
+		}
 	}
 }
 

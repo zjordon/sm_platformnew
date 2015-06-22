@@ -212,7 +212,12 @@ public class Kernel {
 			}
 			if (!dataList.isEmpty()) {
 				for (byte[] data : dataList) {
-					this.processMsg(data);
+					if (data.length >= 8) {
+						this.processMsg(data);
+					} else {
+						logger.warn("the data length is less than 8");
+					}
+					
 				}
 			} else {
 				logger.info("dataList is empty sleep 10 secs");
